@@ -1,0 +1,23 @@
+.home {
+  background: url(./imgs/home_1.png) no-repeat;
+  & .actions {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    & .buttons {
+      height: 100px;
+      background: transparent;
+      border: none;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-end;
+      align-items: center;
+      color: #fff;
+      span {
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
